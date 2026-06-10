@@ -1,7 +1,7 @@
-import { Link } from "@tanstack/react-router";
+﻿import { Link } from "@tanstack/react-router";
 import { Phone, Mail, MapPin } from "lucide-react";
-import { NAV, SITE } from "@/lib/site";
-import { CATEGORIES } from "@/lib/catalog";
+import { NAV, SITE } from "@/lib/api/site";
+import { CATEGORIES } from "@/lib/api/catalog";
 
 export function SiteFooter() {
   return (

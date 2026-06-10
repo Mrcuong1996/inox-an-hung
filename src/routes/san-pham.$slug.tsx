@@ -1,11 +1,11 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+﻿import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArrowLeft, Phone, MessageCircle, CheckCircle2 } from "lucide-react";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
-import { FloatingContacts } from "@/components/FloatingContacts";
-import { QuoteForm } from "@/components/QuoteForm";
-import { PRODUCTS, CATEGORIES } from "@/lib/catalog";
-import { SITE } from "@/lib/site";
+import { SiteHeader } from "@/components/ui/SiteHeader";
+import { SiteFooter } from "@/components/ui/SiteFooter";
+import { FloatingContacts } from "@/components/ui/FloatingContacts";
+import { QuoteForm } from "@/components/ui/QuoteForm";
+import { PRODUCTS, CATEGORIES } from "@/lib/api/catalog";
+import { SITE } from "@/lib/api/site";
 
 export const Route = createFileRoute("/san-pham/$slug")({
   loader: ({ params }) => {

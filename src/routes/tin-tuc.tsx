@@ -1,10 +1,10 @@
-import { createFileRoute } from "@tanstack/react-router";
+﻿import { createFileRoute } from "@tanstack/react-router";
 import { Calendar } from "lucide-react";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
-import { FloatingContacts } from "@/components/FloatingContacts";
-import { SectionTitle } from "@/components/SectionTitle";
-import { NEWS } from "@/lib/catalog";
+import { SiteHeader } from "@/components/ui/SiteHeader";
+import { SiteFooter } from "@/components/ui/SiteFooter";
+import { FloatingContacts } from "@/components/ui/FloatingContacts";
+import { SectionTitle } from "@/components/ui/SectionTitle";
+import { NEWS } from "@/lib/api/catalog";
 
 export const Route = createFileRoute("/tin-tuc")({
   head: () => ({

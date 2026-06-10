@@ -1,9 +1,9 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+﻿import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
-import { FloatingContacts } from "@/components/FloatingContacts";
-import { SERVICES } from "@/lib/catalog";
+import { SiteHeader } from "@/components/ui/SiteHeader";
+import { SiteFooter } from "@/components/ui/SiteFooter";
+import { FloatingContacts } from "@/components/ui/FloatingContacts";
+import { SERVICES } from "@/lib/api/catalog";
 
 export const Route = createFileRoute("/dich-vu/")({
   head: () => ({

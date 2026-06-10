@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import type {} from "@tanstack/react-start";
-import { PRODUCTS, SERVICES } from "@/lib/catalog";
+import { PRODUCTS, SERVICES } from "@/lib/api/catalog";
 
 const BASE_URL = "";
 

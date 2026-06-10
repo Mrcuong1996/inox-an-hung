@@ -1,8 +1,8 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
-import { FloatingContacts } from "@/components/FloatingContacts";
-import { SectionTitle } from "@/components/SectionTitle";
+﻿import { createFileRoute } from "@tanstack/react-router";
+import { SiteHeader } from "@/components/ui/SiteHeader";
+import { SiteFooter } from "@/components/ui/SiteFooter";
+import { FloatingContacts } from "@/components/ui/FloatingContacts";
+import { SectionTitle } from "@/components/ui/SectionTitle";
 import { Factory, Users, Wrench, Award, Target, History } from "lucide-react";
 
 export const Route = createFileRoute("/gioi-thieu")({

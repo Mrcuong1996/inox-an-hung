@@ -1,13 +1,13 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+﻿import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, ShieldCheck, Zap, Award, Wrench, Phone, Quote, Star, MapPin } from "lucide-react";
 import heroImg from "@/assets/hero-workshop.jpg";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
-import { FloatingContacts } from "@/components/FloatingContacts";
-import { QuoteForm } from "@/components/QuoteForm";
-import { SectionTitle } from "@/components/SectionTitle";
-import { PRODUCTS, SERVICES, PROJECTS, TESTIMONIALS } from "@/lib/catalog";
-import { SITE } from "@/lib/site";
+import { SiteHeader } from "@/components/ui/SiteHeader";
+import { SiteFooter } from "@/components/ui/SiteFooter";
+import { FloatingContacts } from "@/components/ui/FloatingContacts";
+import { QuoteForm } from "@/components/ui/QuoteForm";
+import { SectionTitle } from "@/components/ui/SectionTitle";
+import { PRODUCTS, SERVICES, PROJECTS, TESTIMONIALS } from "@/lib/api/catalog";
+import { SITE } from "@/lib/api/site";
 
 export const Route = createFileRoute("/")({
   head: () => ({

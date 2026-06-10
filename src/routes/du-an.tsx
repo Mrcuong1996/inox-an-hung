@@ -1,9 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
-import { FloatingContacts } from "@/components/FloatingContacts";
-import { SectionTitle } from "@/components/SectionTitle";
-import { PROJECTS } from "@/lib/catalog";
+﻿import { createFileRoute } from "@tanstack/react-router";
+import { SiteHeader } from "@/components/ui/SiteHeader";
+import { SiteFooter } from "@/components/ui/SiteFooter";
+import { FloatingContacts } from "@/components/ui/FloatingContacts";
+import { SectionTitle } from "@/components/ui/SectionTitle";
+import { PROJECTS } from "@/lib/api/catalog";
 
 export const Route = createFileRoute("/du-an")({
   head: () => ({

@@ -1,11 +1,11 @@
-import { createFileRoute } from "@tanstack/react-router";
+﻿import { createFileRoute } from "@tanstack/react-router";
 import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
-import { FloatingContacts } from "@/components/FloatingContacts";
-import { SectionTitle } from "@/components/SectionTitle";
-import { QuoteForm } from "@/components/QuoteForm";
-import { SITE } from "@/lib/site";
+import { SiteHeader } from "@/components/ui/SiteHeader";
+import { SiteFooter } from "@/components/ui/SiteFooter";
+import { FloatingContacts } from "@/components/ui/FloatingContacts";
+import { SectionTitle } from "@/components/ui/SectionTitle";
+import { QuoteForm } from "@/components/ui/QuoteForm";
+import { SITE } from "@/lib/api/site";
 
 export const Route = createFileRoute("/lien-he")({
   head: () => ({

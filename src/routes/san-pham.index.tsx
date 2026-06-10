@@ -1,12 +1,12 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+﻿import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState, useMemo } from "react";
 import { Search } from "lucide-react";
 import { z } from "zod";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
-import { FloatingContacts } from "@/components/FloatingContacts";
-import { SectionTitle } from "@/components/SectionTitle";
-import { CATEGORIES, PRODUCTS } from "@/lib/catalog";
+import { SiteHeader } from "@/components/ui/SiteHeader";
+import { SiteFooter } from "@/components/ui/SiteFooter";
+import { FloatingContacts } from "@/components/ui/FloatingContacts";
+import { SectionTitle } from "@/components/ui/SectionTitle";
+import { CATEGORIES, PRODUCTS } from "@/lib/api/catalog";
 
 const search = z.object({ cat: z.string().optional(), q: z.string().optional() });
 

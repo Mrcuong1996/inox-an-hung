@@ -1,7 +1,7 @@
-import { Link } from "@tanstack/react-router";
+﻿import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import { NAV, SITE } from "@/lib/site";
+import { NAV, SITE } from "@/lib/api/site";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);

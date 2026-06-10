@@ -1,5 +1,5 @@
-import { Phone, MessageCircle } from "lucide-react";
-import { SITE } from "@/lib/site";
+﻿import { Phone, MessageCircle } from "lucide-react";
+import { SITE } from "@/lib/api/site";
 
 export function FloatingContacts() {
   const items = [
